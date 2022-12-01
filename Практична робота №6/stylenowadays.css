@@ -1,0 +1,32 @@
+ul :nth-child(odd){
+    background-color: gray;
+}
+ol :nth-child(3){
+    cursor: pointer;
+}
+ol :nth-child(4){
+    background-color: orange;
+    opacity: .7;
+}
+ol :nth-child(5){
+    cursor: pointer;
+}
+#sn{
+    font-style: italic;
+}
+#cn {
+    text-align: center;
+    font-size: 22px;
+}
+.rr {
+    text-align: center;
+}
+.beb {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (min-width: 992px) {
+    .col-lg-6 {
+        width: 50%;
+    } 
+}
